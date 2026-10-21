@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2B50FF"/><stop offset="1" stop-color="#7A3CFF"/></linearGradient>
+<linearGradient id="g2" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FF4D6D"/><stop offset="1" stop-color="#FF9E5E"/></linearGradient>
+<linearGradient id="g3" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#19D3FF"/><stop offset="1" stop-color="#2B50FF"/></linearGradient>
+<filter id="b"><feGaussianBlur stdDeviation="46"/></filter>
+</defs>
+<rect width="800" height="900" fill="#0F1B3D"/>
+<g filter="url(#b)" opacity=".95">
+<circle cx="190" cy="230" r="230" fill="url(#g1)"/>
+<circle cx="640" cy="330" r="190" fill="url(#g2)"/>
+<circle cx="420" cy="720" r="260" fill="url(#g3)"/>
+</g>
+<line x1="0" y1="0" x2="0" y2="900" stroke="#fff" stroke-opacity=".06"/>
+<line x1="50" y1="0" x2="50" y2="900" stroke="#fff" stroke-opacity=".06"/>
+<line x1="100" y1="0" x2="100" y2="900" stroke="#fff" stroke-opacity=".06"/>
+<line x1="150" y1="0" x2="150" y2="900" stroke="#fff" stroke-opacity=".06"/>
+<line x1="200" y1="0" x2="200" y2="900" stroke="#fff" stroke-opacity=".06"/>
+<line x1="250" y1="0" x2="250" y2="900" stroke="#fff" stroke-opacity=".06"/>
+<line x1="300" y1="0" x2="300" y2="900" stroke="#fff" stroke-opacity=".06"/>
+<line x1="350" y1="0" x2="350" y2="900" stroke="#fff" stroke-opacity=".06"/>
+<line x1="400" y1="0" x2="400" y2="900" stroke="#fff" stroke-opacity=".06"/>
+<line x1="450" y1="0" x2="450" y2="900" stroke="#fff" stroke-opacity=".06"/>
+<line x1="500" y1="0" x2="500" y2="900" stroke="#fff" stroke-opacity=".06"/>
+<line x1="550" y1="0" x2="550" y2="900" stroke="#fff" stroke-opacity=".06"/>
+<line x1="600" y1="0" x2="600" y2="900" stroke="#fff" stroke-opacity=".06"/>
+<line x1="650" y1="0" x2="650" y2="900" stroke="#fff" stroke-opacity=".06"/>
+<line x1="700" y1="0" x2="700" y2="900" stroke="#fff" stroke-opacity=".06"/>
+<line x1="750" y1="0" x2="750" y2="900" stroke="#fff" stroke-opacity=".06"/>
+<line x1="800" y1="0" x2="800" y2="900" stroke="#fff" stroke-opacity=".06"/>
+<line x1="0" y1="0" x2="800" y2="0" stroke="#fff" stroke-opacity=".06"/>
+<line x1="0" y1="50" x2="800" y2="50" stroke="#fff" stroke-opacity=".06"/>
+<line x1="0" y1="100" x2="800" y2="100" stroke="#fff" stroke-opacity=".06"/>
+<line x1="0" y1="150" x2="800" y2="150" stroke="#fff" stroke-opacity=".06"/>
+<line x1="0" y1="200" x2="800" y2="200" stroke="#fff" stroke-opacity=".06"/>
+<line x1="0" y1="250" x2="800" y2="250" stroke="#fff" stroke-opacity=".06"/>
+<line x1="0" y1="300" x2="800" y2="300" stroke="#fff" stroke-opacity=".06"/>
+<line x1="0" y1="350" x2="800" y2="350" stroke="#fff" stroke-opacity=".06"/>
+<line x1="0" y1="400" x2="800" y2="400" stroke="#fff" stroke-opacity=".06"/>
+<line x1="0" y1="450" x2="800" y2="450" stroke="#fff" stroke-opacity=".06"/>
+<line x1="0" y1="500" x2="800" y2="500" stroke="#fff" stroke-opacity=".06"/>
+<line x1="0" y1="550" x2="800" y2="550" stroke="#fff" stroke-opacity=".06"/>
+<line x1="0" y1="600" x2="800" y2="600" stroke="#fff" stroke-opacity=".06"/>
+<line x1="0" y1="650" x2="800" y2="650" stroke="#fff" stroke-opacity=".06"/>
+<line x1="0" y1="700" x2="800" y2="700" stroke="#fff" stroke-opacity=".06"/>
+<line x1="0" y1="750" x2="800" y2="750" stroke="#fff" stroke-opacity=".06"/>
+<line x1="0" y1="800" x2="800" y2="800" stroke="#fff" stroke-opacity=".06"/>
+<line x1="0" y1="850" x2="800" y2="850" stroke="#fff" stroke-opacity=".06"/>
+<line x1="0" y1="900" x2="800" y2="900" stroke="#fff" stroke-opacity=".06"/>
+<path d="M300 250 L300 200 L200 200 L400 200" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1.6"/>
+<circle cx="400" cy="200" r="5" fill="#fff" fill-opacity=".85"/>
+<path d="M100 400 L100 350 L100 150" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1.6"/>
+<circle cx="100" cy="150" r="5" fill="#fff" fill-opacity=".85"/>
+<path d="M50 400 L50 250 L0 250" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1.6"/>
+<circle cx="0" cy="250" r="5" fill="#fff" fill-opacity=".85"/>
+<path d="M450 300 L450 150 L400 150" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1.6"/>
+<circle cx="400" cy="150" r="5" fill="#fff" fill-opacity=".85"/>
+<path d="M500 350 L500 500 L650 500 L550 500" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1.6"/>
+<circle cx="550" cy="500" r="5" fill="#fff" fill-opacity=".85"/>
+<path d="M100 500 L300 500 L250 500 L250 350 L450 350" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1.6"/>
+<circle cx="450" cy="350" r="5" fill="#fff" fill-opacity=".85"/>
+<path d="M50 150 L50 300 L50 500 L0 500 L0 500" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1.6"/>
+<circle cx="0" cy="500" r="5" fill="#fff" fill-opacity=".85"/>
+<path d="M600 500 L600 650 L600 700 L600 800 L600 850" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1.6"/>
+<circle cx="600" cy="850" r="5" fill="#fff" fill-opacity=".85"/>
+<path d="M200 500 L200 700 L200 750" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1.6"/>
+<circle cx="200" cy="750" r="5" fill="#fff" fill-opacity=".85"/>
+<path d="M150 750 L150 550 L150 750 L150 850" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1.6"/>
+<circle cx="150" cy="850" r="5" fill="#fff" fill-opacity=".85"/>
+<path d="M150 150 L100 150 L0 150" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1.6"/>
+<circle cx="0" cy="150" r="5" fill="#fff" fill-opacity=".85"/>
+<path d="M250 50 L400 50 L400 0" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1.6"/>
+<circle cx="400" cy="0" r="5" fill="#fff" fill-opacity=".85"/>
+<path d="M750 650 L550 650 L550 550 L350 550" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1.6"/>
+<circle cx="350" cy="550" r="5" fill="#fff" fill-opacity=".85"/>
+<path d="M150 200 L150 150 L150 0 L150 0" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1.6"/>
+<circle cx="150" cy="0" r="5" fill="#fff" fill-opacity=".85"/>
+<g font-family="monospace" font-size="22" fill="#fff" fill-opacity=".22">
+<text x="60" y="120">&lt;/&gt;</text>
+<text x="620" y="90">{ }</text>
+<text x="40" y="780">SELECT *</text>
+<text x="650" y="820">0x1F</text>
+<text x="560" y="560">sudo</text>
+<text x="90" y="520">git push</text>
+<text x="300" y="60">struct</text>
+<text x="430" y="860">&lt;div&gt;</text>
+</g></svg>
