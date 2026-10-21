@@ -154,7 +154,17 @@ section{padding-block:clamp(3.5rem,8vw,6.5rem)}
 
 /* ---------- bandeau compétences ---------- */
 .marquee{border-block:1px solid var(--line);overflow:hidden;padding:1.1rem 0;background:var(--card)}
-.marquee-track{display:flex;gap:3rem;width:max-content;animation:scroll 32s linear infinite}
+.marquee-track{display:flex;width:max-content;animation:scroll 32s linear infinite}
+.marquee span{
+  font-family:var(--font-display);font-size:1.5rem;font-weight:700;
+  white-space:nowrap;color:var(--muted);padding-right:3rem;
+}
+.marquee span::after{content:"";margin-left:3rem;color:var(--red)}
+@keyframes scroll{to{transform:translateX(-50%)}}
+
+@media (hover:hover){
+  .marquee:hover .marquee-track{animation-play-state:paused}
+}
 
 .marquee span{font-family:var(--font-display);font-size:1.5rem;font-weight:700;white-space:nowrap;color:var(--muted)}
 .marquee span::after{margin-left:3rem;color:var(--red)}
@@ -346,4 +356,8 @@ a.contact-item:hover{transform:translateX(6px);border-color:var(--cobalt)}
   .hero h1 .line span{transform:none}
   .hero-copy > *{opacity:1}
   .reveal{opacity:1;transform:none}
+}
+
+@media (prefers-reduced-motion:reduce){
+  .marquee-track{animation:scroll 60s linear infinite!important}
 }
