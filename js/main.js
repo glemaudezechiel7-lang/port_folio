@@ -154,6 +154,27 @@
     });
     form.addEventListener('submit', function (e) { e.preventDefault(); });
   }
+    /* ---------- bandeau : défilement en JavaScript (fiable sur mobile) ---------- */
+  document.querySelectorAll('.marquee-track').forEach(function (track) {
+    track.style.setProperty('animation', 'none', 'important');
+    var x = 0, last = performance.now(), speed = 40, paused = false;
+    function step(now) {
+      var dt = Math.min((now - last) / 1000, 0.1);
+      last = now;
+      if (!paused) {
+        var half = track.scrollWidth / 2;
+        x -= speed * dt;
+        if (-x >= half) x += half;
+        track.style.transform = 'translate3d(' + x + 'px,0,0)';
+      }
+      requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+    if (window.matchMedia('(hover: hover)').matches) {
+      track.parentElement.addEventListener('mouseenter', function () { paused = true; });
+      track.parentElement.addEventListener('mouseleave', function () { paused = false; });
+    }
+  });
 
   /* ---------- année du pied de page ---------- */
   document.querySelectorAll('[data-year]').forEach(function (n) { n.textContent = new Date().getFullYear(); });
