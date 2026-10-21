@@ -351,6 +351,7 @@ a.contact-item:hover{transform:translateX(6px);border-color:var(--cobalt)}
   .brand span{display:none}
 }
 
+
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
   .hero h1 .line span{transform:none}
