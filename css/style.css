@@ -264,7 +264,7 @@ a.contact-item:hover{transform:translateX(6px);border-color:var(--cobalt)}
 /* ---------- bandeau appel à l'action ---------- */
 .cta{
   position:relative;overflow:hidden;border-radius:calc(var(--radius) + 8px);padding:clamp(2rem,6vw,4rem);
-  color:#fff;background:var(--ink) url(../images/art/hero-art.svg) center/cover;
+  color:#fff;background:var(--ink)  center/cover;
   display:grid;gap:1.2rem;justify-items:start;
 }
 .cta p{color:#D5DCF7}
