@@ -17,15 +17,15 @@ window.PROJECTS = [
   {
     title: "CEPS — Gestion pharmacie et cosmétique",
     category: "Web",
-    desc: "Application web PHP MVC sécurisée pour gérer les produits de santé et cosmétiques, avec rôles administrateur et client.",
+    desc: "Application web PHP MVC sécurisée pour gérer et vente les produits de santé et cosmétiques, avec rôles administrateur et client.",
     tags: ["PHP", "MVC", "MySQL"],
     cover: "images/art/cepsweb.png",
-    github: "",
+    github: "https://github.com/glemaudezechiel7-lang/app_ceps",
     demo: ""
   },{
    title: "CEPS — Gestion pharmacie et cosmétique",
     category: "Mobile",
-    desc: "Application mobile java sécurisée pour gérer les produits de santé et cosmétiques, avec rôles administrateur et client.",
+    desc: "Application mobile java sécurisée pour gérer  et vente les produits de santé et cosmétiques, commander et livrer en toutes securite , discuter avec admin dans le chat pour toutes les details.",
     tags: ["JAVA", "MVC", "PostgreSQL"],
     cover: "images/art/cepsapk.jpeg",
     github: "",
