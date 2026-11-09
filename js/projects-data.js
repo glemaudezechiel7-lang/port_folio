@@ -1,18 +1,4 @@
-/* ==========================================================
-   TES PROJETS — ajoute un projet en copiant un bloc { ... }
-   ----------------------------------------------------------
-   title     : nom du projet
-   category  : "Web", "Desktop", "C", "Base de données" ou "Système"
-   desc      : 1 à 2 phrases
-   tags      : technologies utilisées
-   cover     : image de couverture (dans images/art/ ou ta propre image)
-   github    : lien du dépôt GitHub ("" pour masquer le bouton)
-   demo      : lien de démo en ligne ("" pour masquer le bouton)
 
-   Astuce : tu peux aussi ajouter un projet directement depuis la
-   page « Projets » avec le bouton « Ajouter un projet » (il reste
-   enregistré dans ton navigateur uniquement).
-   ========================================================== */
 window.PROJECTS = [
   {
     title: "CEPS — Gestion pharmacie et cosmétique",
@@ -37,7 +23,7 @@ window.PROJECTS = [
     desc: "Application web PHP MVC et version desktop Java Swing, partageant le même modèle MVC et la même base de données.",
     tags: ["PHP", "Java Swing", "MySQL"],
     cover: "images/art/pnh.png",
-    github: "",
+    github: "https://github.com/glemaudezechiel7-lang/pnh",
     demo: ""
   },
   {
@@ -46,7 +32,7 @@ window.PROJECTS = [
     desc: "Comptes, dépôts, retraits, virements et historique, avec tri, recherche, statistiques et sauvegarde dans un fichier.",
     tags: ["C", "Fichiers", "Algorithmique"],
     cover: "images/art/bank.png",
-    github: "",
+    github: "https://github.com/glemaudezechiel7-lang/Gestion_banque",
     demo: ""
   },
   {
