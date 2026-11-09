@@ -37,7 +37,7 @@
         '<div class="tags">' + tags + '</div>' +
         '<div class="project-links">' +
           (gh ? '<a class="link-pill" href="' + esc(gh) + '" target="_blank" rel="noopener">' + GH + 'Code</a>' : '') +
-          (demo ? '<a class="link-pill" href="' + esc(demo) + '" target="_blank" rel="noopener">' + EXT + ' Télécharger</a>' : '') +
+          (demo ? '<a class="link-pill" href="' + esc(demo) + '" target="_blank" rel="noopener">' + EXT + 'Démo</a>' : '') +
           (p.custom ? '<button class="del-btn" type="button" data-del="' + p.idx + '">Supprimer</button>' : '') +
         '</div>' +
       '</div></article>';
