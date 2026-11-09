@@ -19,11 +19,7 @@
   }
   function safeUrl(u) {
     return /^https?:\/\//i.test(u || '') ? u : '';
-
-
   }
-
-  
   function all() {
     const base = (window.PROJECTS || []).map(function (p) { return Object.assign({ custom: false }, p); });
     const mine = loadCustom().map(function (p, i) { return Object.assign({ custom: true, idx: i }, p); });
@@ -41,12 +37,11 @@
         '<div class="tags">' + tags + '</div>' +
         '<div class="project-links">' +
           (gh ? '<a class="link-pill" href="' + esc(gh) + '" target="_blank" rel="noopener">' + GH + 'Code</a>' : '') +
-          (demo ? '<a class="link-pill" href="' + esc(demo) + '" target="_blank" rel="noopener">' + EXT + 'Démo</a>' : '') +
+          (demo ? '<a class="link-pill" href="' + esc(demo) + '" target="_blank" rel="noopener">' + EXT + ' Téléchargergitgggg</a>' : '') +
           (p.custom ? '<button class="del-btn" type="button" data-del="' + p.idx + '">Supprimer</button>' : '') +
         '</div>' +
       '</div></article>';
   }
-
 
   /* ----- accueil : 3 projets mis en avant ----- */
   const featured = document.getElementById('featured');
