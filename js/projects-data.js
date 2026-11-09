@@ -29,7 +29,7 @@ window.PROJECTS = [
     tags: ["JAVA", "MVC", "PostgreSQL"],
     cover: "images/art/cepsapk.jpeg",
     github: "",
-    demo: ""
+    demo: "telecharger_ceps.html"
   },
   {
     title: "Gestion de commissariat (PNH)",

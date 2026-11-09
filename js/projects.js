@@ -19,7 +19,11 @@
   }
   function safeUrl(u) {
     return /^https?:\/\//i.test(u || '') ? u : '';
+
+
   }
+
+  
   function all() {
     const base = (window.PROJECTS || []).map(function (p) { return Object.assign({ custom: false }, p); });
     const mine = loadCustom().map(function (p, i) { return Object.assign({ custom: true, idx: i }, p); });
@@ -42,6 +46,7 @@
         '</div>' +
       '</div></article>';
   }
+
 
   /* ----- accueil : 3 projets mis en avant ----- */
   const featured = document.getElementById('featured');

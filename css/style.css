@@ -3,7 +3,7 @@
    Tokens → base → layout → composants → pages → responsive
    ========================================================== */
 :root{
-  --ink:#16171a;
+  --ink:black;
   --cobalt:#960d51;
   --cobalt-soft:#E4EAFF;
   --red:#E0314B;
